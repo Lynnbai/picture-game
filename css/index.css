@@ -1,0 +1,97 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+span,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  cursor: move;
+}
+
+.linodes {
+  position: relative;
+}
+
+.content {
+  width: 300px;
+  height: 420px;
+  border: 1px solid red;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.content .pic {
+  height: 400px;
+  background-image: url("../images/man.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1000;
+}
+
+.content .pic li {
+  width: 90px;
+  height: 100px;
+  margin-left: 5px;
+}
+
+.content .pic li img {
+  width: 100%;
+}
+
+.content .chip {
+  margin-top: -80px;
+}
+
+.content .chip ul {
+  width: 600px;
+}
+
+.content .chip ul li {
+  width: 90px;
+  height: 100px;
+  margin-left: 5px;
+}
+
+.content .chip ul li img {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */
